@@ -1,0 +1,66 @@
+<!--
+ * @Descripttion: 房源详情页面
+ * @Author: LiuQi
+ * @Date: 2023-08-11 19:16:30
+ * @LastEditors: LiuQi
+ * @LastEditTime: 2023-08-11 19:38:43
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./static/font/iconfont.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="header-top">
+                <div id="header-top-title">鸿坤理想湾</div>
+                <div id="header-top-city">涿州市</div>
+                <div id="header-top-icon">
+                    <svg id="icon">
+                        <use xlink:href="#icon-shouji"></use>
+                    </svg>
+                </div>
+                <div id="header-label-left">售</div>
+                <div id="header-label-right">已购</div>
+                <div id="header-top-internet">
+                    <input type="checkbox" name="item" id="header-top-internet" value="网络房">
+                    <label>网络房</label>
+                </div>
+                <div id="header-top-revise">快速修改</div>
+            </div>
+            <div class="header-door">
+                <div id="header-door-title">门牌号：</div>
+                <div id="header-door-number">31号楼1单元1804</div>
+                <div id="header-door-button">点击隐藏</div>
+            </div>
+            <div class="header-label">
+                <div id="header-label-title">标签：</div>
+                <div id="header-label-txt">暂无标签</div>
+            </div>
+        </div>
+        <div class="main-dialog">
+            <div id="loadingContainer">
+                <div>
+                    <p>加载中……</p>
+                </div>
+            </div>
+            <ul class="main">
+            </ul>
+            <svg id="scrollToTop">
+                <use xlink:href="#icon-icon--"></use>
+            </svg>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./js/request.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+
+</html>
